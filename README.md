@@ -50,3 +50,14 @@ This package contains utility functions to make life easier when using Jupyter n
     ```
     jutils.reload(<module_name>)
     ```
+
+* Segment image based on color.
+
+    ```
+    lower_hsv = (Hue, Saturation, Value)
+    upper_hsv = (Hue, Saturation, Value)
+    jutils.segment_color(img, lower_hsv, upper_hsv)
+    ```
+
+    Hue is in the range 0 ~ 180.
+    Saturation and Value are in the range 0 ~ 255.
