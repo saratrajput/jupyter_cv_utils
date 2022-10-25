@@ -7,16 +7,18 @@ This package contains utility functions to make life easier when using Jupyter n
 ## Installation
 
 * With pip:
-[Under construction]
+    ```
+    pip install jupyter_cv_utils
+    ```
 
-* Editable mode:
+* Editable mode to develop and run tests, run the following in your virtualenv:
 
     ```
     # Clone the repository.
     git clone https://github.com/saratrajput/jupyter_cv_utils.git
 
     cd jupyter_cv_utils/
-    pip install -e .
+    pip install -e .[dev]
     ```
 
 ## Usage
